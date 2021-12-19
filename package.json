@@ -1,8 +1,13 @@
 {
     "name": "cyberwave-theme",
+    "author": "rosalvio",
     "displayName": "Cyberwave Theme",
     "description": "Cyberpunk - Synthwave style theme",
     "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rosalvio/cyberwave-theme"
+    },
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -10,12 +15,10 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [
-            {
-                "label": "Cyberwave",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Cyberwave-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "Cyberwave",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Cyberwave-color-theme.json"
+        }]
     }
 }
