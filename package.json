@@ -1,6 +1,6 @@
 {
     "name": "cyberwave-theme",
-    "author": "rosalvio",
+    "author": "Jose Antonio Mira Garcia",
     "displayName": "Cyberwave Theme",
     "description": "Cyberpunk - Synthwave style theme",
     "version": "0.0.1",
@@ -8,6 +8,7 @@
         "type": "git",
         "url": "https://github.com/rosalvio/cyberwave-theme"
     },
+    "publisher": "rosalvio",
     "engines": {
         "vscode": "^1.63.0"
     },
