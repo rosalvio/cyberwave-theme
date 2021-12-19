@@ -1,0 +1,21 @@
+{
+    "name": "cyberwave-theme",
+    "displayName": "Cyberwave Theme",
+    "description": "Cyberpunk - Synthwave style theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cyberwave",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cyberwave-color-theme.json"
+            }
+        ]
+    }
+}
